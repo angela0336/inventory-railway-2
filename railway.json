@@ -1,0 +1,6 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "deploy": {
+    "preDeployCommand": ["php artisan config:clear && php artisan app:setup-awal"]
+  }
+}
